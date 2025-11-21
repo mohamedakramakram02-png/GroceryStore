@@ -69,6 +69,7 @@ import vanilla_muffins_image from "./vanilla_muffins_image.png";
 import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
+import personal_care from "./personal_care.png";
 
 export const assets = {
   logo,
@@ -102,19 +103,13 @@ export const assets = {
 
 export const categories = [
   {
-    text: "Organic veggies",
-    path: "Vegetables",
+    text: "Organic Fruits And Vegetables",
+    path: "Fruits&Vegetables",
     image: organic_vegitable_image,
-    bgColor: "#FEF6DA",
+    bgColor: "#f0c0c0",
   },
   {
-    text: "Fresh Fruits",
-    path: "Fruits",
-    image: fresh_fruits_image,
-    bgColor: "#FEE0E0",
-  },
-  {
-    text: "Cold Drinks",
+    text: "Beverages",
     path: "Drinks",
     image: bottles_image,
     bgColor: "#F0F5DE",
@@ -141,6 +136,12 @@ export const categories = [
     text: "Grains & Cereals",
     path: "Grains",
     image: grain_image,
+    bgColor: "#F1E3F9",
+  },
+  {
+    text: "Personal Care",
+    path: "Personal",
+    image: personal_care,
     bgColor: "#F1E3F9",
   },
 ];
